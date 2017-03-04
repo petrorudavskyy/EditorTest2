@@ -1,0 +1,17 @@
+{
+  "name": "EditorTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start" : "lessc style.less style.css && http-server -c-1 -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cropper": "^3.0.0-beta",
+    "http-server": "^0.9.0",
+    "less": "^2.7.2"
+  }
+}

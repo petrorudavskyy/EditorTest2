@@ -1,0 +1,170 @@
+// Color variables 
+@color0: #ffffff; 
+
+// Width variables 
+@width6: 100%; 
+
+// Height variables 
+@height0: 515px; 
+
+img {
+	max-width: @width6;
+}
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+.img-container {
+	background-color: @color0;
+	margin-bottom: 20px;
+	max-height: @height0;
+	min-height: 200px;
+	text-align: center;
+	width: @width6;
+}
+.img-preview {
+	background-color: @color0;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+	text-align: center;
+	width: @width6;
+}
+// @media {
+// 	(min-width {
+// 		&:768px) {
+// 			.img-container { min-height: @height0;
+// 		}
+// 	}
+// 	(max-width {
+// 		&:400px) {
+// 			.btn-group-crop { margin-right: -15px!important;
+// 		}
+// 	}
+// }
+.img-container>img {
+	max-width: @width6;
+}
+.docs-preview {
+	margin-right: -15px;
+}
+.img-preview>img {
+	max-width: @width6;
+}
+.preview-lg {
+	height: 150px;
+	width: 250px;
+}
+.preview-md {
+	height: 80px;
+	width: 150px;
+}
+.preview-sm {
+	height: 50px;
+	width: 70px;
+}
+.preview-xs {
+	height: 20px;
+	margin-right: 0;
+	width: 35px;
+}
+.docs-data>.input-group {
+	margin-bottom: 10px;
+}
+.docs-data>.input-group>label {
+	min-width: 80px;
+}
+.docs-data>.input-group>span {
+	min-width: 50px;
+}
+.docs-buttons>.btn {
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+.docs-buttons>.btn-group {
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+.docs-buttons>.form-control {
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+.docs-toggles>.btn {
+	margin-bottom: 10px;
+}
+.docs-toggles>.btn-group {
+	margin-bottom: 10px;
+}
+.docs-toggles>.dropdown {
+	margin-bottom: 10px;
+}
+.docs-tooltip {
+	display: block;
+	margin: -6px -12px;
+	padding: 6px 12px;
+}
+.docs-tooltip>.icon {
+	margin: 0 -3px;
+	vertical-align: top;
+}
+.tooltip-inner {
+	white-space: normal;
+}
+.btn-upload {
+	.tooltip-inner {
+		white-space: nowrap;
+	}
+}
+.btn-toggle {
+	padding: 6px;
+	.tooltip-inner {
+		white-space: nowrap;
+	}
+}
+.btn-toggle>.docs-tooltip {
+	margin: -6px;
+	padding: 6px;
+}
+.btn-group-crop>.btn {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.btn-group-crop {
+	.docs-tooltip {
+		margin-left: -5px;
+		margin-right: -5px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+.docs-options {
+	.dropdown-menu {
+		width: @width6;
+	}
+	.dropdown-menu>li {
+		padding: 3px 20px;
+		&:hover {
+			background-color: @color0;
+		}
+	}
+	.dropdown-menu>li>label {
+		display: block;
+	}
+}
+.docs-cropped {
+	.modal-body {
+		text-align: center;
+	}
+	.modal-body>img {
+		max-width: @width6;
+	}
+	.modal-body>canvas {
+		max-width: @width6;
+	}
+}
+.docs-diagram {
+	.modal-dialog {
+		max-width: 35px;
+	}
+}

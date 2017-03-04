@@ -1,0 +1,139 @@
+img {
+  max-width: 100%;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.img-container {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  max-height: 515px;
+  min-height: 200px;
+  text-align: center;
+  width: 100%;
+}
+.img-preview {
+  background-color: #ffffff;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+.img-container > img {
+  max-width: 100%;
+}
+.docs-preview {
+  margin-right: -15px;
+}
+.img-preview > img {
+  max-width: 100%;
+}
+.preview-lg {
+  height: 150px;
+  width: 250px;
+}
+.preview-md {
+  height: 80px;
+  width: 150px;
+}
+.preview-sm {
+  height: 50px;
+  width: 70px;
+}
+.preview-xs {
+  height: 20px;
+  margin-right: 0;
+  width: 35px;
+}
+.docs-data > .input-group {
+  margin-bottom: 10px;
+}
+.docs-data > .input-group > label {
+  min-width: 80px;
+}
+.docs-data > .input-group > span {
+  min-width: 50px;
+}
+.docs-buttons > .btn {
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.docs-buttons > .btn-group {
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.docs-buttons > .form-control {
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.docs-toggles > .btn {
+  margin-bottom: 10px;
+}
+.docs-toggles > .btn-group {
+  margin-bottom: 10px;
+}
+.docs-toggles > .dropdown {
+  margin-bottom: 10px;
+}
+.docs-tooltip {
+  display: block;
+  margin: -6px -12px;
+  padding: 6px 12px;
+}
+.docs-tooltip > .icon {
+  margin: 0 -3px;
+  vertical-align: top;
+}
+.tooltip-inner {
+  white-space: normal;
+}
+.btn-upload .tooltip-inner {
+  white-space: nowrap;
+}
+.btn-toggle {
+  padding: 6px;
+}
+.btn-toggle .tooltip-inner {
+  white-space: nowrap;
+}
+.btn-toggle > .docs-tooltip {
+  margin: -6px;
+  padding: 6px;
+}
+.btn-group-crop > .btn {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.btn-group-crop .docs-tooltip {
+  margin-left: -5px;
+  margin-right: -5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.docs-options .dropdown-menu {
+  width: 100%;
+}
+.docs-options .dropdown-menu > li {
+  padding: 3px 20px;
+}
+.docs-options .dropdown-menu > li:hover {
+  background-color: #ffffff;
+}
+.docs-options .dropdown-menu > li > label {
+  display: block;
+}
+.docs-cropped .modal-body {
+  text-align: center;
+}
+.docs-cropped .modal-body > img {
+  max-width: 100%;
+}
+.docs-cropped .modal-body > canvas {
+  max-width: 100%;
+}
+.docs-diagram .modal-dialog {
+  max-width: 35px;
+}
